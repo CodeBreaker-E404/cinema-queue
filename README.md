@@ -33,17 +33,12 @@ You will need to setup permissions before using the commands.
 - Define ACE permissions
 ```
 add_ace group.admin cq.admin allow   # Grant 'cq.admin' permission to the 'admin' group
-add_ace group.admin cq.god allow     # Grant 'cq.god' permission to the 'admin' group
 ```
 - Optionally define specific user permissions
 ```
 add_ace user123 cq.admin allow       # Grant 'cq.admin' permission to a specific user with identifier 'user123'
 ```
-- Optionally define groups
-```
-add_principal group.admin group.admin
-add_principal group.user group.user
-```
+
 
 ## Commands
 
