@@ -22,17 +22,27 @@ Assuming Hypnonema is downloaded, installed, and set up.
 - Restart your server
 
 ## Starting Order
-
+```
 exec @hypnonema/permissions.cfg
 ensure hypnonema
 ensure cinema-queue
+```
+
+## server.cfg
+You will need to setup permissions before using the commands.
+- Define ACE permissions
+add_ace group.admin cq.admin allow   # Grant 'cq.admin' permission to the 'admin' group
+add_ace group.admin cq.god allow     # Grant 'cq.god' permission to the 'admin' group
+- Optionally define specific user permissions
+add_ace user123 cq.admin allow       # Grant 'cq.admin' permission to a specific user with identifier 'user123'
+- Optionally define groups
+add_principal group.admin group.admin
+add_principal group.user group.user
 
 ## Commands
 
 /playQueue - Plays the queue for the default screen.
 
 ### NOTICE
-
-commands for this script are not protected by Ace Perms. this means anyone will be able to use the command(s).
 
 This is my first ever script for Fivem and also my first dive head-first into the lua language. This script was created out of necessity for my personal servers, however it is free and fair for you to edit and use in your own servers. I ask that if you build a project off of some or all of my code that you are respectful enough to give credit where it is due.
