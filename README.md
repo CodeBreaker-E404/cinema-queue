@@ -28,7 +28,7 @@ ensure hypnonema
 ensure cinema-queue
 ```
 
-## server.cfg
+## server.cfg (Currnetly Broken)(Skip For Now)
 You will need to setup permissions before using the commands.
 - Define ACE permissions
 ```
@@ -39,12 +39,28 @@ add_ace group.god cq.admin allow   # Grant 'cq.admin' permission to the 'god' gr
 ```
 add_ace user123 cq.admin allow       # Grant 'cq.admin' permission to a specific user with identifier 'user123'
 ```
+- If using qbcore add these
+```
+add_ace qbcore.admin cq.admin allow   # Grant 'cq.admin' permission to the 'admin' group
+add_ace qbcore.god cq.admin allow   # Grant 'cq.admin' permission to the 'god' group
+```
 
 
 ## Commands
-
 /playQueue - Plays the queue for the default screen.
+/stopQueue - Stops the queue for the default screen.
 
 ### NOTICE
+Hypnonema only supports the following links
+- All HTML5 supported audio and video types including HLS/DASH
+- Twitch
+- YouTube
+- DailyMotion
+- Facebook
+- Vimeo
+- Streamable
+- Vidme
+- Wistia
+- SoundCloud
 
 This is my first ever script for Fivem and also my first dive head-first into the lua language. This script was created out of necessity for my personal servers, however it is free and fair for you to edit and use in your own servers. I ask that if you build a project off of some or all of my code that you are respectful enough to give credit where it is due.

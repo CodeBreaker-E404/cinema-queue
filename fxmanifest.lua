@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Error404'
-description 'Media Queue Script with ACE Permissions for Hypnonema'
+description 'Media Queue Script for use with Hypnonema.'
 version '1.0.0'
 
 
