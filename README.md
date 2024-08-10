@@ -17,8 +17,8 @@ Assuming Hypnonema is downloaded, installed, and set up.
 - Download the zip file to your resources folder
 - Un-zip the file and ensure it is named cinema-queue
 - Add ensure cinema-queue after hypnonema in your server.cfg
-- Configure the queue for the default screen in client.lua
-- Add custom queues in client.lua (optional)
+- Configure the queue for the default screen in server.lua
+- Add custom queues in server.lua (optional)
 - Restart your server
 
 ## Starting Order
@@ -33,6 +33,7 @@ You will need to setup permissions before using the commands.
 - Define ACE permissions
 ```
 add_ace group.admin cq.admin allow   # Grant 'cq.admin' permission to the 'admin' group
+add_ace group.god cq.admin allow   # Grant 'cq.admin' permission to the 'god' group
 ```
 - Optionally define specific user permissions
 ```
