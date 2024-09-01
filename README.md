@@ -13,10 +13,6 @@ Features & Improvements:
 - Notifications: Notify players when media is played using customizable notification systems.
 - Logging: Logs key actions and errors to help with monitoring and debugging.
 
-### v1.0.1
-Features:
-- Media Queue Management: Easily create and manage media queues through a configuration file.
-
 ## Dependencies
 Hypnonema - Media Player Resource for FiveM
 [fivem-hypnonema](https://github.com/all-in-simplicity/fivem-hypnonema)
