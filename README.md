@@ -89,5 +89,5 @@ Hypnonema supports the following links
 This is my first ever script for Fivem and also my first dive head-first into the lua language. This script was created out of necessity for my personal servers, however it is free and fair for you to edit and use in your own servers. I ask that if you build a project using some or all of my code that you are respectful enough to give credit where it is due.
 
 ## LICENSE
-This project is licensed under theThis work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
