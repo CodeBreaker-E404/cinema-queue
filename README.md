@@ -13,6 +13,10 @@ Features & Improvements:
 - Notifications: Notify players when media is played using customizable notification systems.
 - Logging: Logs key actions and errors to help with monitoring and debugging.
 
+### v1.0.1
+Features:
+- Media Queue Management: Easily create and manage media queues through a configuration file.
+
 ## Dependencies
 Hypnonema - Media Player Resource for FiveM
 [fivem-hypnonema](https://github.com/all-in-simplicity/fivem-hypnonema)
@@ -69,9 +73,9 @@ config.queues = {
 
 ## Commands
 All command names are configurable in the config file.
-- /playQueue - Plays a queue on the desired screen.
-- /sPlayQueue - Shuffles and Plays a queue on the desired screen.
-- /stopQueue - Stops a queue on the desired screen.
+/playQueue - Plays a queue on the desired screen.
+/sPlayQueue - Shuffles and Plays a queue on the desired screen.
+/stopQueue - Stops a queue on the desired screen.
 
 ### NOTICE
 Hypnonema supports the following links
